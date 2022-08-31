@@ -12,8 +12,10 @@ function Signin() {
         margin: '0 auto',
       }}
     >
-      <h1>Hi there!</h1>
-      <p>Click the button below to login!</p>
+      <div style={{ color: 'lightblue' }}>
+        <h4>Hi Disney cast member! Please sign in to take attendance</h4>
+        <h1>Disney&apos;s Vice President economics discussion Panel</h1>
+      </div>
       <button type="button" className="btn btn-primary btn-lg copy-btn" onClick={signIn}>
         Sign In
       </button>
